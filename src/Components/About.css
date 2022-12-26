@@ -1,0 +1,28 @@
+.About {
+    width: 100%;
+    height: 50vh;
+    /* background: linear-gradient(300deg, blue, black); */
+    padding: 0 10%;
+    color: white;
+    font-size: 20px;
+}
+
+.About h1:after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 2.75em;
+    border: 2px solid #898989;
+}
+
+.About p {
+    margin: 4rem 0;
+    font-size: 20px;
+    /* border: 1px solid #FFFFFF; */
+}
+
+.About a {
+    text-decoration: none;
+    color: #ffb9b9;
+    
+}

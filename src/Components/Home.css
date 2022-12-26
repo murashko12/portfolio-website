@@ -1,0 +1,34 @@
+.Home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    padding: 0 10%;
+    /* justify-content: center; */
+    /* background: linear-gradient(300deg, blue, black); */
+}
+
+.homeWreper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    flex-direction: row;
+    /* border: 1px solid white; */
+}
+.homeWreper h1{
+    font-size: 65px;
+}
+
+.homeWreper p {
+    font-size: 25px;
+}
+
+.photoWreper img {
+    width: 450px;
+    height: 410px;
+    border-radius: 20px;
+    object-fit: cover
+}
+

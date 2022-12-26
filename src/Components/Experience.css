@@ -1,0 +1,75 @@
+.ExperienceCont {
+    margin: 0 10%;
+    color: white;
+}
+
+.ExperienceCont img {
+    width: 150px;
+    height: auto;
+    
+}
+
+.ExperienceCont span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+}
+
+
+.Experience {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3%;
+    padding: 3% 0 10% 0;
+    height: auto;
+}
+
+.Experience div {
+    text-align: center;
+    background: linear-gradient(rgb(20, 32, 252), rgba(255, 0, 0, 0.391));
+    padding-top: 5%;
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 20px 5px rgba(255, 0, 0, 0.5);
+}
+
+
+
+.ExperienceElem {
+    height: 250px;
+    
+}
+
+.ExperienceDescription h1:after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 5em;
+    border: 2px solid #898989;
+}
+
+/* .Experience div img{
+    margin-bottom: 10%;
+} */
+
+
+@media (max-width: 1050px) {
+    .Experience {
+        grid-template-columns: 1fr 1fr;
+    }
+    .ExperienceCont {
+        margin: 10% 10%;
+        color: white;
+    }
+}
+
+@media (max-width: 825px) {
+    .Experience {
+        grid-template-columns: 1fr;
+    }
+    .ExperienceCont {
+        margin: 40% 10%;
+        color: white;
+    }
+}
