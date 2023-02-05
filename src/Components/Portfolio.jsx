@@ -3,6 +3,7 @@ import './Portfolio.css';
 
 import calculator from '../assets/calculator.png'
 import weatherApp from '../assets/weatherApp.png'
+import passwordGenerator from '../assets/passwordGenerator.png'
 
 
 
@@ -18,8 +19,12 @@ const Portfolio = () => {
             id: 2,
             src: weatherApp,
             link: "https://weather-app-react-git-master-murashko12.vercel.app/"
-        }
-        
+        },
+        {
+            id: 3,
+            src: passwordGenerator,
+            link: "https://password-generator-murashko12.vercel.app/"   
+        },
         
     ]
 
@@ -44,7 +49,7 @@ const Portfolio = () => {
                     <img src={src} alt={`${src}`} />
                     {/* <div></div> */}
                     <div className='PortfolioBtns'>
-                        <a href={link} target="_blank">
+                        <a href={link} target="blank">
                             <button>Demo</button>
                         </a>
                     </div>
