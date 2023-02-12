@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div name="home" className='Home'>
             <div className='homeWreper'>
-                <div>
+                <div className='photoAndTitle'>
                     <h1>
                         I'm Frontend Developer
                     </h1>

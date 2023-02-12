@@ -23,6 +23,19 @@
 
 .About a {
     text-decoration: none;
-    color: #ffb9b9;
-    
+    color: #ffb9b9;   
+}
+
+@media(max-width: 990px) {
+    .About {
+        height: auto;
+        text-align: center;
+    }
+    .About h1:after {
+        content: '';
+        display: block;
+        position: relative;
+        width: 100%;
+        border: 2px solid #898989;
+    }
 }

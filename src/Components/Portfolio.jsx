@@ -24,7 +24,8 @@ const Portfolio = () => {
             id: 3,
             src: passwordGenerator,
             link: "https://password-generator-murashko12.vercel.app/"   
-        },
+        }
+        
         
     ]
 
@@ -32,7 +33,6 @@ const Portfolio = () => {
 
         <div name="portfolio" className='Portfolio'>
             <div className='PortfolioTitle'>
-                
                 
                 <div>
                     <h1>Portfolio</h1>
@@ -46,15 +46,14 @@ const Portfolio = () => {
                 {
                     portfolioProjects.map(({id, src, link}) => (
                         <div key={id} className='PortfolioSection'>
-                    <img src={src} alt={`${src}`} />
-                    {/* <div></div> */}
-                    <div className='PortfolioBtns'>
-                        <a href={link} target="blank">
-                            <button>Demo</button>
-                        </a>
-                    </div>
+                            <img src={src} alt={`${src}`} />
                     
-                    </div>
+                            <div className='PortfolioBtns'>
+                                <a href={link} target="blank">
+                                    <button>Demo</button>
+                                </a>
+                            </div>
+                        </div>
                     ))
                 } 
             </div>

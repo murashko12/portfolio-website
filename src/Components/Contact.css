@@ -66,3 +66,24 @@ form {
     scale: 110%;
     
 }
+
+@media(max-width: 850px) {
+    .ContactWrep {
+        height: auto;
+        text-align: center;
+    }
+    .ContactWrep h1:after {
+        content: '';
+        display: block;
+        position: relative;
+        width: 100%;
+        border: 2px solid #898989;
+    }
+    form {
+        width: 100%;
+    }
+    button {
+        width: 100%;
+        justify-content: center;
+    }
+}

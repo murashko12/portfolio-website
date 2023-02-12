@@ -1,6 +1,7 @@
 .ExperienceCont {
     margin: 0 10%;
     color: white;
+    height: 120vh;
 }
 
 .ExperienceCont img {
@@ -54,6 +55,8 @@
 } */
 
 
+
+
 @media (max-width: 1050px) {
     .Experience {
         grid-template-columns: 1fr 1fr;
@@ -64,12 +67,26 @@
     }
 }
 
+
 @media (max-width: 825px) {
     .Experience {
         grid-template-columns: 1fr;
     }
     .ExperienceCont {
-        margin: 40% 10%;
         color: white;
+    }
+}
+
+@media(max-width: 990px) {
+    .ExperienceCont,.ExperienceWrep,.Experience {
+        height: 310vh;
+        text-align: center;
+    }
+    .ExperienceWrep h1:after {
+        content: '';
+        display: block;
+        position: relative;
+        width: 100%;
+        border: 2px solid #898989;
     }
 }

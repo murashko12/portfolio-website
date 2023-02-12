@@ -39,7 +39,6 @@ const Technologies = [
     icon: githubImg,
     title: "GitHub"
   }
-
 ]
 
 export default function Experience() {
@@ -69,9 +68,7 @@ export default function Experience() {
             })}
 
         </div>
-
       </div>
-      
     </div>
   )
 }
