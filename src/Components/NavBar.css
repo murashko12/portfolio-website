@@ -8,7 +8,7 @@
     align-items: center;
     color:gray;
     padding: 0 10%;
-    z-index: 2;
+    z-index: 20;
     /* opacity: 0.5; */
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.7);
 }
@@ -18,13 +18,13 @@
     color: white;
 }
 
-.NavBar ul {
+.NavBarUl {
     display: flex;
     list-style-type: none;
     gap: 5rem;
 }
 
-.NavBar ul li {
+.NavBarUl li {
     text-transform: capitalize;
     cursor: pointer;
     opacity: 100%;
@@ -37,7 +37,7 @@
     /* border-bottom: 2px solid white; */
 } 
 
-.NavBar ul li::after {
+.NavBarUl li::after {
     content: '';
     display: block;
     width: 0;
@@ -47,10 +47,94 @@
     transition: width .3s;
 }
 
-.NavBar ul li:hover::after {
+.NavBarUl li:hover::after {
     width: 100%;
     color: rgb(255, 255, 255);
     /* transition: width .3s; */
+}
+
+
+.mobileBtn {
+    display: none;
+    cursor: pointer;
+    padding-right: 40px;
+    z-index: 10;
+    color: rgb(107 114 128);
+}
+
+@media(max-width: 990px) {
+    .mobileBtn {
+        display: block;
+    }
+    .NavBarUl {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        position: fixed;
+        gap: 5rem;
+        left: -100%;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: calc(100vh - 4rem);
+        background: rgb(142,140,140);
+        background: linear-gradient(231deg, rgba(142,140,140,1) 0%, rgba(54,35,35,1) 100%);
+        color: white;
+        text-transform: capitalize;
+        z-index: 10;
+        transition: left 0.5s;
+        font-size: 30px;
+    }
+    .active {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        position: fixed;
+        gap: 5rem;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: calc(100vh - 4rem);
+        background: rgb(142,140,140);
+        background: linear-gradient(231deg, rgba(142,140,140,1) 0%, rgba(54,35,35,1) 100%);
+        color: white;
+        text-transform: capitalize;
+        z-index: 10;
+        transition: left 0.5s;
+        font-size: 30px;
+    }
+
+    .active li {
+        text-transform: capitalize;
+        cursor: pointer;
+        opacity: 100%;
+        transition-duration: 300ms;
+    }
+    
+    .active ul li:hover {
+        scale: 120%;
+        color:white;
+        /* border-bottom: 2px solid white; */
+    } 
+
+    .active li::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: rgb(255, 255, 255);
+        
+        transition: width .3s;
+    }
+    
+    
 }
 
 
