@@ -25,11 +25,6 @@ const Portfolio = () => {
             src: passwordGenerator,
             link: "https://password-generator-murashko12.vercel.app/"   
         },   
-        {
-            id: 3,
-            src: passwordGenerator,
-            link: "https://password-generator-murashko12.vercel.app/"   
-        }   
     ]
 
     return (
