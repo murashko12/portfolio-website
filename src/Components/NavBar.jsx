@@ -37,7 +37,7 @@ const NavBar = () => {
 
             <ul className={nav ? 'active' : 'NavBarUl'}>
                 {links.map(({id, link}) => (<li key={id}>
-                    <Link to={link} smooth duration={500} onClick={() => setNav(!nav)}>{link}</Link>    
+                    <Link to={link} smooth duration={500}>{link}</Link>    
                 </li>))}    
             </ul>
             <div onClick={() => setNav(!nav)} className='mobileBtn'>
