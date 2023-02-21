@@ -37,7 +37,7 @@
     /* border-bottom: 2px solid white; */
 } 
 
-.NavBarUl li::after {
+/* .NavBarUl li::after {
     content: '';
     display: block;
     width: 0;
@@ -45,7 +45,7 @@
     background: rgb(255, 255, 255);
     
     transition: width .3s;
-}
+} */
 
 .NavBarUl li:hover::after {
     width: 100%;
