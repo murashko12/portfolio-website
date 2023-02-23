@@ -39,13 +39,12 @@ const NavBar = () => {
 
             <ul className={nav ? 'active' : 'NavBarUl'} >
                 {links.map(({id, link}) => (<li key={id} >
-                    <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>{link}</Link>    
+                    <Link  to={link} smooth duration={500}>{link}</Link>    
                 </li>))}    
             </ul>
             <div onClick={() => setNav(!nav)} className='mobileBtn'>
                 {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25}/>}
             </div>
-
         </div>
     );
 }
