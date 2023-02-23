@@ -7,6 +7,7 @@ import jsImg from "../Experience/javascript.svg";
 import sassImg from "../Experience/sass.svg";
 import reactImg from "../Experience/react.svg";
 import githubImg from "../Experience/github.svg";
+import typescript from "../Experience/typescript.svg"
 // import { dblClick } from '@testing-library/user-event/dist/click';
 
 const Experience = () => {
@@ -36,15 +37,19 @@ const Experience = () => {
       id: 6,
       icon: githubImg,
       title: "GitHub"
+    },{  
+      id: 7,
+      icon: typescript,
+      title: "TypeScript"
     }
   ]
   
   return (
-    <div name="experience" className='Experience'>
+    <div name="skills" className='Experience'>
       <div className='ExperienceTitle'>
         
         <div>
-            <h1>Experience</h1>
+            <h1>Skills</h1>
             <br />
             <p>These are the technologies I've worked with</p>
         </div>
