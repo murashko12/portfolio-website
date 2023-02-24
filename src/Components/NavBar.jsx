@@ -6,8 +6,6 @@ import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai';
 const NavBar = () => {
 
     const [nav, setNav] = useState(false)
-    let screenWidth = window.screen.width
-    // console.log()
 
     const links = [
         {
@@ -39,7 +37,7 @@ const NavBar = () => {
 
             <ul className={nav ? 'active' : 'NavBarUl'} >
                 {links.map(({id, link}) => (<li key={id} >
-                    <Link  to={link} smooth duration={500}>{link}</Link>    
+                    <Link onClick={() => setNav(false)} to={link} smooth duration={500}>{link}</Link>    
                 </li>))}    
             </ul>
             <div onClick={() => setNav(!nav)} className='mobileBtn'>
