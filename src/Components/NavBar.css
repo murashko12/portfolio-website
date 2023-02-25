@@ -37,27 +37,15 @@
     /* border-bottom: 2px solid white; */
 } 
 
-/* .NavBarUl li::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: rgb(255, 255, 255);
-    
-    transition: width .3s;
-} */
-
 .NavBarUl li:hover::after {
     width: 100%;
     color: rgb(255, 255, 255);
-    /* transition: width .3s; */
 }
 
 
 .mobileBtn {
     display: none;
     cursor: pointer;
-    /* padding-right: 40px; */
     z-index: 10;
     color: rgb(107 114 128);
 }
