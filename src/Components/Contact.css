@@ -69,8 +69,9 @@ form {
 
 @media(max-width: 850px) {
     .ContactWrep {
-        height: auto;
+        height: 90vh;
         text-align: center;
+        padding-top: 10%;
     }
     .ContactWrep h1:after {
         content: '';
