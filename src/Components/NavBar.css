@@ -57,7 +57,7 @@
 .mobileBtn {
     display: none;
     cursor: pointer;
-    padding-right: 40px;
+    /* padding-right: 40px; */
     z-index: 10;
     color: rgb(107 114 128);
 }
