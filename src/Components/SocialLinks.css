@@ -35,11 +35,16 @@
     width: 100%;
 }
 
+.fab {
+    visibility: hidden;
+}
+
 @media(max-width: 990px) {
     .SocialLinks li {
         margin-left: -180px;
     }
     .fab {
+        visibility: visible;
         position: fixed;
         right: 30px;
         bottom: 38px;
