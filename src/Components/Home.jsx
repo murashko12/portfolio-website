@@ -14,7 +14,7 @@ const Home = () => {
                     <br />
                     <p>
                         I have 1 year of experiens building and desgining software.
-                        Currently, I love work with interfaces using ReactJS.
+                        Currently, I love working with interfaces using ReactJS.
                     </p>
                 </div>
                 <div className='photoWreper'>

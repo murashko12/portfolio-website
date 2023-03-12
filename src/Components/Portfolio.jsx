@@ -41,7 +41,7 @@ const Portfolio = () => {
                 <div>
                     <h1>Portfolio</h1>
                     <br />
-                    <h3>Check out some my work right here</h3>
+                    <h3>Check out some of my works right here</h3>
                 </div>
 
             </div>

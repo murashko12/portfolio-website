@@ -68,13 +68,15 @@
         bottom: 0;
         width: 100%;
         height: calc(100vh - 4rem);
-        background: rgb(142,140,140);
-        background: linear-gradient(231deg, rgba(142,140,140,1) 0%, rgba(54,35,35,1) 100%);
+        /* background: rgb(142,140,140);
+        background: linear-gradient(231deg, rgba(142,140,140,1) 0%, rgba(54,35,35,1) 100%); */
+        backdrop-filter: blur(40px);
         color: white;
         text-transform: capitalize;
         z-index: 10;
         transition: left 0.5s;
         font-size: 30px;
+        
     }
     .active {
         margin-top: 5rem;
@@ -90,8 +92,7 @@
         bottom: 0;
         width: 100%;
         height: calc(100vh - 4rem);
-        background: rgb(142,140,140);
-        background: linear-gradient(231deg, rgba(142,140,140,1) 0%, rgba(54,35,35,1) 100%);
+        backdrop-filter: blur(40px);
         color: white;
         text-transform: capitalize;
         z-index: 10;
