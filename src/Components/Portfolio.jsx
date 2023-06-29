@@ -5,6 +5,8 @@ import calculator from '../assets/calculator.png'
 import weatherApp from '../assets/weatherApp.png'
 import passwordGenerator from '../assets/passwordGenerator.png'
 import todoList from '../assets/todoList.png'
+import watchShop from '../assets/watchShop.png'
+
 
 
 
@@ -30,11 +32,15 @@ const Portfolio = () => {
             id: 4,
             src: todoList,
             link: "https://todo-list-app-murashko12.vercel.app/"
+        },
+        {
+            id: 5,
+            src: watchShop,
+            link: "https://watch-shop-pi.vercel.app/"
         },   
     ]
 
     return (
-
         <div name="portfolio" className='Portfolio'>
             <div className='PortfolioTitle'>
                 
