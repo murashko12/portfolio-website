@@ -1,13 +1,13 @@
 import React from 'react';
 import './Experience.css';
 
-import htmlImg from "../Experience/html.svg";
-import cssImg from "../Experience/css.svg";
-import jsImg from "../Experience/javascript.svg";
-import sassImg from "../Experience/sass.svg";
+import jsImg from "../Experience/logo-javascript.svg";
+import tsImg from "../Experience/typescript.svg"
 import reactImg from "../Experience/react.svg";
+import reduxImg from "../Experience/redux.svg";
 import githubImg from "../Experience/github.svg";
-import typescript from "../Experience/typescript.svg"
+import muiImg from "../Experience/material-ui-1.svg"
+import nextImg from "../Experience/next-js.svg"
 // import { dblClick } from '@testing-library/user-event/dist/click';
 
 const Experience = () => {
@@ -15,32 +15,32 @@ const Experience = () => {
   const technologies = [
     { 
       id: 1, 
-      icon: htmlImg,
-      title: "HTML5"
+      icon: jsImg,
+      title: "JavaScript"
     },{  
       id: 2,
-      icon: cssImg,
-      title: "CSS3"
+      icon: tsImg,
+      title: "TypeScript"
     },{  
       id: 3,
-      icon: jsImg,
-      title: "JS"
-    },{  
-      id: 4,
-      icon: sassImg,
-      title: "SASS"
-    },{  
-      id: 5,
       icon: reactImg,
       title: "ReactJS"
     },{  
+      id: 4,
+      icon: muiImg,
+      title: "Material-Ui"
+    },{  
+      id: 5,
+      icon: reduxImg,
+      title: "Redux Toolkit"
+    },{  
       id: 6,
+      icon: nextImg,
+      title: "NextJS"
+    },{
+      id: 7,
       icon: githubImg,
       title: "GitHub"
-    },{  
-      id: 7,
-      icon: typescript,
-      title: "TypeScript"
     }
   ]
   
