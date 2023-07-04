@@ -6,6 +6,7 @@ import weatherApp from '../assets/weatherApp.png'
 import passwordGenerator from '../assets/passwordGenerator.png'
 import todoList from '../assets/todoList.png'
 import watchShop from '../assets/watchShop.png'
+import turingOfficial from '../assets/turingOfficial.png'
 
 
 
@@ -37,6 +38,11 @@ const Portfolio = () => {
             id: 5,
             src: watchShop,
             link: "https://watch-shop-pi.vercel.app/"
+        },   
+        {
+            id: 6,
+            src: turingOfficial,
+            link: "https://turing-official.vercel.app/"
         },   
     ]
 
