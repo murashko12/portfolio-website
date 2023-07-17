@@ -8,6 +8,7 @@ import todoList from '../assets/todoList.png'
 import watchShop from '../assets/watchShop.png'
 import turingOfficial from '../assets/turingOfficial.png'
 import searchUser from '../assets/searchUser.png'
+import shoesFilter from '../assets/shoesFilter.png'
 
 
 
@@ -49,6 +50,11 @@ const Portfolio = () => {
             id: 7,
             src: searchUser,
             link: "https://turing-search-form.vercel.app/"
+        },   
+        {
+            id: 8,
+            src: shoesFilter,
+            link: "https://shoes-filter-pi.vercel.app/"
         },   
     ]
 
