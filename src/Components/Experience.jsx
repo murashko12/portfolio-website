@@ -7,7 +7,6 @@ import reactImg from "../Experience/react.svg";
 import reduxImg from "../Experience/redux.svg";
 import githubImg from "../Experience/github.svg";
 import muiImg from "../Experience/material-ui-1.svg"
-import nextImg from "../Experience/next-js.svg"
 import viteImg from "../Experience/vitejs.svg"
 // import { dblClick } from '@testing-library/user-event/dist/click';
 
@@ -34,16 +33,12 @@ const Experience = () => {
       id: 5,
       icon: reduxImg,
       title: "Redux Toolkit"
-    },{  
-      id: 6,
-      icon: nextImg,
-      title: "NextJS"
     },{
-      id: 7,
+      id: 6,
       icon: githubImg,
       title: "GitHub"
     },{
-      id: 8,
+      id: 7,
       icon: viteImg,
       title: "ViteJs"
     }
