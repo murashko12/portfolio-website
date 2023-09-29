@@ -101,5 +101,9 @@
 @media (max-width: 825px) {
     .PortfolioCont {
         grid-template-columns: 1fr;
+        /* height: auto; */
+    }
+    .Portfolio {
+        height: 290vh;
     }
 }
