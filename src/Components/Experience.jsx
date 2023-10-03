@@ -8,6 +8,7 @@ import reduxImg from "../Experience/redux.svg";
 import githubImg from "../Experience/github.svg";
 import muiImg from "../Experience/material-ui-1.svg"
 import viteImg from "../Experience/vitejs.svg"
+import tailwindcss from '../Experience/tailwindcss.svg'
 // import { dblClick } from '@testing-library/user-event/dist/click';
 
 const Experience = () => {
@@ -41,6 +42,10 @@ const Experience = () => {
       id: 7,
       icon: viteImg,
       title: "ViteJs"
+    },{
+      id: 8,
+      icon: tailwindcss,
+      title: "TailwindCSS"
     }
   ]
   

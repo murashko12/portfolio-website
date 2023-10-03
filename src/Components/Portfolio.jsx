@@ -9,6 +9,8 @@ import watchShop from '../assets/watchShop.png'
 import turingOfficial from '../assets/turingOfficial.png'
 import searchUser from '../assets/searchUser.png'
 import shoesFilter from '../assets/shoesFilter.png'
+import githubSearch from '../assets/githubSearch.png'
+
 
 
 
@@ -55,6 +57,11 @@ const Portfolio = () => {
             id: 8,
             src: shoesFilter,
             link: "https://shoes-filter-pi.vercel.app/"
+        },   
+        {
+            id: 9,
+            src: githubSearch,
+            link: "https://github-search-eight-bay.vercel.app/"
         },   
     ]
 
