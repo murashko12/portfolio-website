@@ -10,6 +10,7 @@ import turingOfficial from '../assets/turingOfficial.png'
 import searchUser from '../assets/searchUser.png'
 import shoesFilter from '../assets/shoesFilter.png'
 import githubSearch from '../assets/githubSearch.png'
+import campApp from '../assets/campApp.png'
 
 
 
@@ -62,7 +63,12 @@ const Portfolio = () => {
             id: 9,
             src: githubSearch,
             link: "https://github-search-eight-bay.vercel.app/"
-        },   
+        },
+        {
+            id: 10,
+            src: campApp,
+            link: "https://camp-app-ts.vercel.app/"
+        },    
     ]
 
     return (
